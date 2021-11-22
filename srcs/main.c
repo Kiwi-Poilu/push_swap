@@ -41,11 +41,23 @@ void sort_a(int *a, int *b, int low, int high, int stack_size)
             printf("pb\n");
 		}
 	}
-	while (r_count < get_stack_size(a))
+	if ((get_stack_size(a) - r_count) < r_count)
 	{
-		printf("ra\n");
-        move_rotate(a, stack_size);
-		r_count++;
+		while (r_count < get_stack_size(a))
+		{
+			printf("ra\n");
+			move_rotate(a, stack_size);
+			r_count++;
+			}
+	}
+	else
+	{
+		while (r_count > 0)
+		{
+			printf("rra\n");
+			move_reverse_rotate(a, stack_size);
+			r_count--;
+		}
 	}
 	sort_a(a, b, mid + 1, high, stack_size);
 	sort_b(a, b, low, mid, stack_size);
@@ -68,24 +80,40 @@ void sort_b(int *a, int *b, int low, int high, int stack_size)
 			return ;
 		if (b[0] < mid)
 		{
-            printf("rrb\n");
-            move_reverse_rotate(b, stack_size);
+            printf("rb\n");
+            move_rotate(b, stack_size);
 			r_count++;
-		} else
+		}
+		else
 		{
 			move_PUSH(a, b, stack_size);
             printf("pa\n");
 		}
 	}
-	while (r_count < get_stack_size(b))
+	//highest - rcount vs r_count
+	//x rb ou y rrb
+	//x = get_stack_size - rcount;
+	//y = r_count;
+	if ((get_stack_size(b) - r_count) < r_count)
 	{
-        printf("rrb\n");
-        move_reverse_rotate(b, stack_size);
-		r_count++;
+		while (r_count < get_stack_size(b))
+		{
+			printf("rb\n");
+			move_rotate(b, stack_size);
+			r_count++;
+		}
+	}
+	else
+	{
+		while (r_count > 0)
+		{
+			printf("rrb\n");
+			move_reverse_rotate(b, stack_size);
+			r_count--;
+		}
 	}
 	sort_a(a, b, mid, high, stack_size);
 	sort_b(a, b, low, mid - 1, stack_size);
-
 }
 
 int fill_tmp(int ac, char **av, int *tmp)
@@ -184,8 +212,8 @@ int	main(int ac, char **av)
 	a[ac - 1] = 0;
 	memset(b, 0, (ac - 1) * sizeof (int));
     sort_a(a, b, 1, get_highest(a, ac - 1), ac - 1);
-    //display_stack(a, ac);
-    //display_stack(a, ac);
+  //  display_stack(a, ac);
+  //  display_stack(a, ac);
 	//display_stack(b, ac - 1 );
 	free(a);
 	free(b);
