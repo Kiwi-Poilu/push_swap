@@ -1,4 +1,4 @@
-# Install script for directory: /home/kiwi/CLionProjects/push_swap
+# Install script for directory: /mnt/nfs/homes/sobouatt/CLionProjects/push_swap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

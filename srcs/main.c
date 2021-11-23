@@ -13,6 +13,23 @@
 #include <string.h>
 #include "../include/push_swap.h"
 
+
+int get_highest2(const int *stack, int stack_size)
+{
+	int i;
+	int highest;
+
+	i = 0;
+	highest = 0;
+	while (i < stack_size)
+	{
+		if (stack[i] > highest)
+			highest = i;
+		i++;
+	}
+	return (i);
+}
+
 void	sort_a(int *a, int *b, int low, int high, int stack_size)
 {
 	int	mid;
@@ -185,67 +202,158 @@ int check_limits(char **av)
 
 void	three(int *a)
 {
+	display_stack(a, get_stack_size(a));
+	printf("%d\n", a[0]);
+	printf("%d\n", a[1]);
+	printf("%d\n", a[2]);
 	if (is_sorted(a, 3))
 		return ;
-	if (a[0] > a[1] && a[1] < a[2])
+	if (a[0] > a[1] && a[1] < a[2] && a[2] < a[0])
 	{
 		printf("sa\n");
 		move_swap(a);
 	}
-	else if (a[0] > a[1] && a[1] > a[2])
+	else if (a[0] > a[1] && a[1] > a[2] && a[2] < a[0])
 	{
 		printf("sa\n");
 		move_swap(a);
 		printf("rra\n");
 		move_reverse_rotate(a, 3);
 	}
-	else if (a[0] > a[1] && a[1] < a[2])
+	else if (a[0] > a[1] && a[1] < a[2] && a[2] > a[0])
 	{
 		printf("ra\n");
 		move_rotate(a, 3);
 	}
-	else if (a[0] < a[1] && a[1] > a[2])
+	else if (a[0] > a[1] && a[1] > a[2] && a[2] > a[0])
 	{
 		printf("sa\n");
 		move_swap(a);
 		printf("ra\n");
 		move_rotate(a, 3);
 	}
-	else
+	else if (a[0] < a[1] && a[1] > a[2] && a[2] < a[0])
 	{
 		printf("rra\n");
-	move_reverse_rotate(a, 3);
+		move_reverse_rotate(a, 3);
 	}
+	display_stack(a, get_stack_size(a));
 }
 
-
-void position_stack(int number, int *a)
+int 	get_lowest(int *stack)
 {
-	int good;
+	int i;
+	int lowest;
 
-	good = 0;
-	while (good == 0)
+	i = 0;
+	lowest = 0;
+	while (stack[i] != 0)
 	{
-		if (number < a[0])
-			return ;
-		if (number > a[])
-		move_rotate(a, 5);
+		if (stack[i] < stack[lowest])
+			lowest = i;
+		i++;
+	}
+	return (lowest);
+}
+
+int 	get_lowest_sup(const int *a, int b)
+{
+	int i;
+	int actual_lowest_sup;
+	int bool;
+
+	i = 0;
+	bool = 0;
+	while (a[i] != 0)
+	{
+		if (a[i] > b && bool == 0)
+		{
+			actual_lowest_sup = i;
+			bool = 1;
+		}
+		if (a[i] > b && a[i] < a[actual_lowest_sup])
+			actual_lowest_sup = i;
+		i++;
+	}
+	return (actual_lowest_sup);
+}
+
+int		find_target(int *a, int b)
+{
+	int i;
+	int tmp;
+
+	i = 0;
+	display_stack(a, get_stack_size(a));
+	if (a[get_lowest(a)] > b || a[get_highest(a)] < b)
+	{
+		printf("get_lowest(a) = %d\n", get_lowest(a));
+		printf("get_highest(a) = %d\n", get_highest(a));
+		printf("get_lowest\n");
+		tmp = get_lowest(a);
+	}
+	else
+	{
+		printf("get_lowest(a) = %d\n", get_lowest(a));
+		printf("get_highest(a) = %d\n", get_highest(a));
+		printf("get_lowest_supp\n");
+		tmp = get_lowest_sup(a, b);
+	}
+	printf("b = %d\n", b);
+	printf("tmp = %d\n", tmp);
+	return (tmp);
+}
+
+int	get_stack_size(const int *stack)
+{
+	int i;
+
+	i = 0;
+	while (stack[i] != 0)
+		i++;
+	return (i);
+}
+
+void rotate_for_target(int *a, int target)
+{
+	int i;
+
+	i = 0;
+	while (i < target)
+	{
+		printf("ra\n");
+		move_rotate(a, get_stack_size(a));
+		i++;
 	}
 }
 
 void five(int *a, int *b)
 {
 	int i;
+	int target;
 
 	if (is_sorted(a, 5))
 		return ;
 	printf("pb\n");
+	move_PUSH(b, a, 5);
 	printf("pb\n");
+	move_PUSH(b, a, 5);
 	three(a);
 	i = 0;
 	while (i < 2)
 	{
-		position_stack()
+		target = find_target(a, b[0]);
+		printf("target = %d\n", target);
+		rotate_for_target(a, target);
+		printf("pa\n");
+		move_PUSH(a, b, 5);
+		i++;
+	}
+	display_stack(a, get_stack_size(a));
+	while (is_sorted(a, get_stack_size(a)) == 0)
+	{
+		//printf("ra\n");
+		move_rotate(a, get_stack_size(a));
 	}
 }
 
@@ -270,19 +378,23 @@ int	main(int ac, char **av)
 		free(tmp);
 		return (ft_putstr("Error\n"));
 	}
-	a = malloc ((ac) * sizeof(int));	a[ac - 1] = 0;
+	a = malloc ((ac) * sizeof(int));
+	a[ac - 1] = 0;
 	b = malloc ((ac)  * sizeof(int));
 	fill_stack(ac, tmp, a);
+	//printf("highest of A = %d\n", get_highest2(a, ac - 1));
 	free(tmp);
 	a[ac - 1] = 0;
-	memset(b, 0, (ac - 1) * sizeof (int));
-	if (ac != 4)
-		sort_a(a, b, 1, get_highest(a, ac - 1), ac - 1);
-	else
+	memset(b, 0, (ac) * sizeof (int));
+	if (ac == 4)
 		three(a);
-  //  display_stack(a, ac);
-  //  display_stack(a, ac);
-	//display_stack(b, ac - 1 );
+	else if (ac == 6)
+		five(a, b);
+	else
+		sort_a(a, b, 1, get_highest2(a, ac - 1), ac);
+	display_stack(a, get_stack_size(a));
+	//printf("%d\n", get_stack_size(a));
+	//printf("%d\n", get_highest2(a, ac - 1));
 	free(a);
 	free(b);
 }

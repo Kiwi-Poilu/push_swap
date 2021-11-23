@@ -1,19 +1,19 @@
 #include "../include/push_swap.h"
 
-int get_highest(const int *stack, int stack_size)
+int get_highest(const int *stack)
 {
 	int i;
 	int highest;
 
 	i = 0;
 	highest = 0;
-	while (i < stack_size)
+	while (stack[i] != 0)
 	{
-		if (stack[i] > highest)
+		if (stack[i] > stack[highest])
 			highest = i;
 		i++;
 	}
-	return (i);
+	return (highest);
 }
 
 int check_empty_stack(const int *stack, int stack_size)
@@ -61,20 +61,6 @@ int contain_lower(const int *stack, int mid, int stack_size)
 		i++;
 	}
 	return (0);
-}
-
-int get_stack_size(const int *stack)
-{
-	int i;
-
-	i = 0;
-	while (stack[i])
-	{
-		if (stack[i] == 0)
-			return (i);
-		i++;
-	}
-	return (i);
 }
 
 int is_sorted(const int *stack, int stack_size)

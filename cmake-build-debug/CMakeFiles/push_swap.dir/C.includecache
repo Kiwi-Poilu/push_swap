@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/include/push_swap.h
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+limits.h
+-
+errno.h
+-
+ctype.h
+-
+sys/param.h
+-
+
+/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/main.c
+string.h
+-
+../include/push_swap.h
+/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/include/push_swap.h
+

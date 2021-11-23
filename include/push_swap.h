@@ -33,7 +33,7 @@ void    move_reverse_rotate(int *stack, int stack_size);
 void move_swap(int *stack);
 
 //get_infos.c
-int get_highest(const int *stack, int stack_size);
+int get_highest(const int *stack);
 int check_empty_stack(const int *stack, int stack_size);
 int	contain_greater_equal(const int *stack, int mid, int stack_size);
 int contain_lower(const int *stack, int mid, int stack_size);

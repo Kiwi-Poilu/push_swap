@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kiwi/CLionProjects/push_swap/srcs/ft_strtol.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o"
-  "/home/kiwi/CLionProjects/push_swap/srcs/get_infos.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/get_infos.c.o"
-  "/home/kiwi/CLionProjects/push_swap/srcs/main.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/main.c.o"
-  "/home/kiwi/CLionProjects/push_swap/srcs/operations.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/operations.c.o"
-  "/home/kiwi/CLionProjects/push_swap/srcs/utils.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils.c.o"
-  "/home/kiwi/CLionProjects/push_swap/srcs/utils2.c" "/home/kiwi/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils2.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/ft_strtol.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/get_infos.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/main.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/main.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/operations.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/operations.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/utils.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/utils2.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils2.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

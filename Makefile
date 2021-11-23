@@ -9,7 +9,6 @@ SRCS =	srcs/main.c \
 		srcs/utils2.c \
 		srcs/ft_strtol.c
 
-
 OBJS = ${SRCS:.c=.o}
 
 CC = clang
