@@ -30,6 +30,7 @@ void sort_b(int *a, int *b, int low, int high, int stack_size);
 void move_PUSH(int *a, int *b, int stack_size);
 void move_rotate(int *stack,int stack_size);
 void    move_reverse_rotate(int *stack, int stack_size);
+void move_swap(int *stack);
 
 //get_infos.c
 int get_highest(const int *stack, int stack_size);

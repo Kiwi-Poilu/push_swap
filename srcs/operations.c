@@ -76,3 +76,15 @@ void    move_reverse_rotate(int *stack, int stack_size)
     }
     stack[i] = tmp;
 }
+
+void move_swap(int *stack)
+{
+	int tmp;
+
+	if (stack[0] != 0 && stack[1] != 0)
+	{
+		tmp = stack[0];
+		stack[0] = stack[1];
+		stack[1] = tmp;
+	}
+}
