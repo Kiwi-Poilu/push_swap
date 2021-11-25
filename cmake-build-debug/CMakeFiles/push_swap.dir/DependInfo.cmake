@@ -8,10 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/compensate.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/compensate.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/ft_strtol.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/get_infos.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos2.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/get_infos2.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/main.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/main.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/operations.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/operations.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/run.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run2.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/run2.c.o"
+  "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/sort.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/sort.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/utils.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils.c.o"
   "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/utils2.c" "/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/utils2.c.o"
   )

@@ -7,7 +7,12 @@ SRCS =	srcs/main.c \
 		srcs/operations.c \
 		srcs/get_infos.c \
 		srcs/utils2.c \
-		srcs/ft_strtol.c
+		srcs/ft_strtol.c \
+		srcs/compensate.c \
+		srcs/run.c \
+		srcs/run2.c \
+		srcs/sort.c \
+		srcs/get_infos2.c
 
 OBJS = ${SRCS:.c=.o}
 

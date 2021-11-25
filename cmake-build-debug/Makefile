@@ -129,6 +129,30 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+srcs/compensate.o: srcs/compensate.c.o
+.PHONY : srcs/compensate.o
+
+# target to build an object file
+srcs/compensate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/compensate.c.o
+.PHONY : srcs/compensate.c.o
+
+srcs/compensate.i: srcs/compensate.c.i
+.PHONY : srcs/compensate.i
+
+# target to preprocess a source file
+srcs/compensate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/compensate.c.i
+.PHONY : srcs/compensate.c.i
+
+srcs/compensate.s: srcs/compensate.c.s
+.PHONY : srcs/compensate.s
+
+# target to generate assembly for a file
+srcs/compensate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/compensate.c.s
+.PHONY : srcs/compensate.c.s
+
 srcs/ft_strtol.o: srcs/ft_strtol.c.o
 .PHONY : srcs/ft_strtol.o
 
@@ -177,6 +201,30 @@ srcs/get_infos.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/get_infos.c.s
 .PHONY : srcs/get_infos.c.s
 
+srcs/get_infos2.o: srcs/get_infos2.c.o
+.PHONY : srcs/get_infos2.o
+
+# target to build an object file
+srcs/get_infos2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/get_infos2.c.o
+.PHONY : srcs/get_infos2.c.o
+
+srcs/get_infos2.i: srcs/get_infos2.c.i
+.PHONY : srcs/get_infos2.i
+
+# target to preprocess a source file
+srcs/get_infos2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/get_infos2.c.i
+.PHONY : srcs/get_infos2.c.i
+
+srcs/get_infos2.s: srcs/get_infos2.c.s
+.PHONY : srcs/get_infos2.s
+
+# target to generate assembly for a file
+srcs/get_infos2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/get_infos2.c.s
+.PHONY : srcs/get_infos2.c.s
+
 srcs/main.o: srcs/main.c.o
 .PHONY : srcs/main.o
 
@@ -224,6 +272,78 @@ srcs/operations.s: srcs/operations.c.s
 srcs/operations.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/operations.c.s
 .PHONY : srcs/operations.c.s
+
+srcs/run.o: srcs/run.c.o
+.PHONY : srcs/run.o
+
+# target to build an object file
+srcs/run.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run.c.o
+.PHONY : srcs/run.c.o
+
+srcs/run.i: srcs/run.c.i
+.PHONY : srcs/run.i
+
+# target to preprocess a source file
+srcs/run.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run.c.i
+.PHONY : srcs/run.c.i
+
+srcs/run.s: srcs/run.c.s
+.PHONY : srcs/run.s
+
+# target to generate assembly for a file
+srcs/run.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run.c.s
+.PHONY : srcs/run.c.s
+
+srcs/run2.o: srcs/run2.c.o
+.PHONY : srcs/run2.o
+
+# target to build an object file
+srcs/run2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run2.c.o
+.PHONY : srcs/run2.c.o
+
+srcs/run2.i: srcs/run2.c.i
+.PHONY : srcs/run2.i
+
+# target to preprocess a source file
+srcs/run2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run2.c.i
+.PHONY : srcs/run2.c.i
+
+srcs/run2.s: srcs/run2.c.s
+.PHONY : srcs/run2.s
+
+# target to generate assembly for a file
+srcs/run2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/run2.c.s
+.PHONY : srcs/run2.c.s
+
+srcs/sort.o: srcs/sort.c.o
+.PHONY : srcs/sort.o
+
+# target to build an object file
+srcs/sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort.c.o
+.PHONY : srcs/sort.c.o
+
+srcs/sort.i: srcs/sort.c.i
+.PHONY : srcs/sort.i
+
+# target to preprocess a source file
+srcs/sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort.c.i
+.PHONY : srcs/sort.c.i
+
+srcs/sort.s: srcs/sort.c.s
+.PHONY : srcs/sort.s
+
+# target to generate assembly for a file
+srcs/sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort.c.s
+.PHONY : srcs/sort.c.s
 
 srcs/utils.o: srcs/utils.c.o
 .PHONY : srcs/utils.o
@@ -282,18 +402,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
+	@echo "... srcs/compensate.o"
+	@echo "... srcs/compensate.i"
+	@echo "... srcs/compensate.s"
 	@echo "... srcs/ft_strtol.o"
 	@echo "... srcs/ft_strtol.i"
 	@echo "... srcs/ft_strtol.s"
 	@echo "... srcs/get_infos.o"
 	@echo "... srcs/get_infos.i"
 	@echo "... srcs/get_infos.s"
+	@echo "... srcs/get_infos2.o"
+	@echo "... srcs/get_infos2.i"
+	@echo "... srcs/get_infos2.s"
 	@echo "... srcs/main.o"
 	@echo "... srcs/main.i"
 	@echo "... srcs/main.s"
 	@echo "... srcs/operations.o"
 	@echo "... srcs/operations.i"
 	@echo "... srcs/operations.s"
+	@echo "... srcs/run.o"
+	@echo "... srcs/run.i"
+	@echo "... srcs/run.s"
+	@echo "... srcs/run2.o"
+	@echo "... srcs/run2.i"
+	@echo "... srcs/run2.s"
+	@echo "... srcs/sort.o"
+	@echo "... srcs/sort.i"
+	@echo "... srcs/sort.s"
 	@echo "... srcs/utils.o"
 	@echo "... srcs/utils.i"
 	@echo "... srcs/utils.s"

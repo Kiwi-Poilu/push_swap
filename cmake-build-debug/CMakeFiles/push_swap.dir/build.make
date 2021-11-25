@@ -144,6 +144,71 @@ CMakeFiles/push_swap.dir/srcs/ft_strtol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/ft_strtol.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/ft_strtol.c -o CMakeFiles/push_swap.dir/srcs/ft_strtol.c.s
 
+CMakeFiles/push_swap.dir/srcs/compensate.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/compensate.c.o: ../srcs/compensate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/srcs/compensate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/compensate.c.o -c /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/compensate.c
+
+CMakeFiles/push_swap.dir/srcs/compensate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/compensate.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/compensate.c > CMakeFiles/push_swap.dir/srcs/compensate.c.i
+
+CMakeFiles/push_swap.dir/srcs/compensate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/compensate.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/compensate.c -o CMakeFiles/push_swap.dir/srcs/compensate.c.s
+
+CMakeFiles/push_swap.dir/srcs/run.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/run.c.o: ../srcs/run.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/srcs/run.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/run.c.o -c /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run.c
+
+CMakeFiles/push_swap.dir/srcs/run.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/run.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run.c > CMakeFiles/push_swap.dir/srcs/run.c.i
+
+CMakeFiles/push_swap.dir/srcs/run.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/run.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run.c -o CMakeFiles/push_swap.dir/srcs/run.c.s
+
+CMakeFiles/push_swap.dir/srcs/run2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/run2.c.o: ../srcs/run2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/srcs/run2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/run2.c.o -c /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run2.c
+
+CMakeFiles/push_swap.dir/srcs/run2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/run2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run2.c > CMakeFiles/push_swap.dir/srcs/run2.c.i
+
+CMakeFiles/push_swap.dir/srcs/run2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/run2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run2.c -o CMakeFiles/push_swap.dir/srcs/run2.c.s
+
+CMakeFiles/push_swap.dir/srcs/sort.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/sort.c.o: ../srcs/sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/srcs/sort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/sort.c.o -c /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/sort.c
+
+CMakeFiles/push_swap.dir/srcs/sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/sort.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/sort.c > CMakeFiles/push_swap.dir/srcs/sort.c.i
+
+CMakeFiles/push_swap.dir/srcs/sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/sort.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/sort.c -o CMakeFiles/push_swap.dir/srcs/sort.c.s
+
+CMakeFiles/push_swap.dir/srcs/get_infos2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/get_infos2.c.o: ../srcs/get_infos2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/srcs/get_infos2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/get_infos2.c.o -c /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos2.c
+
+CMakeFiles/push_swap.dir/srcs/get_infos2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/get_infos2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos2.c > CMakeFiles/push_swap.dir/srcs/get_infos2.c.i
+
+CMakeFiles/push_swap.dir/srcs/get_infos2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/get_infos2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos2.c -o CMakeFiles/push_swap.dir/srcs/get_infos2.c.s
+
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/srcs/main.c.o" \
@@ -151,7 +216,12 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/srcs/operations.c.o" \
 "CMakeFiles/push_swap.dir/srcs/get_infos.c.o" \
 "CMakeFiles/push_swap.dir/srcs/utils2.c.o" \
-"CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o"
+"CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o" \
+"CMakeFiles/push_swap.dir/srcs/compensate.c.o" \
+"CMakeFiles/push_swap.dir/srcs/run.c.o" \
+"CMakeFiles/push_swap.dir/srcs/run2.c.o" \
+"CMakeFiles/push_swap.dir/srcs/sort.c.o" \
+"CMakeFiles/push_swap.dir/srcs/get_infos2.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -162,9 +232,14 @@ push_swap: CMakeFiles/push_swap.dir/srcs/operations.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/get_infos.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/utils2.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/ft_strtol.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/compensate.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/run.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/run2.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/sort.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/get_infos2.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

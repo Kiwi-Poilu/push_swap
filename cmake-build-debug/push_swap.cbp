@@ -66,16 +66,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/compensate.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/ft_strtol.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/get_infos2.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/main.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/operations.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/run2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/sort.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/mnt/nfs/homes/sobouatt/CLionProjects/push_swap/srcs/utils.c">

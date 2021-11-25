@@ -6,7 +6,7 @@
 /*   By: sobouatt <sobouatt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 22:08:44 by sobouatt          #+#    #+#             */
-/*   Updated: 2021/11/22 22:08:47 by sobouatt         ###   ########.fr       */
+/*   Updated: 2021/11/25 22:19:11 by sobouatt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,17 @@ int	ft_isupper(int c)
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 	return (0);
+}
+
+void	*ft_memset(void *b, int c, size_t len)
+{
+	size_t	i;
+
+	i = 0;
+	while (i < len)
+	{
+		((char *)b)[i] = (unsigned char)(c);
+		i++;
+	}
+	return (b);
 }
